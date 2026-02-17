@@ -58,7 +58,7 @@ $apiUrl = "https://$domain/w/api.php";
 $mytalkUrl = "https://$domain/wiki/Special:MyTalk#Hello.2C_world";
 
 
-$gUserAgent = $ini['agent'] ?? "OAuthHelloWorld/1.0x";
+$gUserAgent = "OAuthHelloWorld/1.0x";
 $gConsumerKey = $ini['consumerKey'];
 $gConsumerSecret = $ini['consumerSecret'];
 

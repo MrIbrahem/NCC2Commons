@@ -8,7 +8,7 @@ if (!getenv('INIFILE')) {
     $inifile = $ROOT_PATH . '/confs/OAuthConfig_commons_new.ini';
     //---
     // set evnironment variables inifile
-    putenv("INIFILE=$inifile");
+	putenv('INIFILE=' . $inifile);
 }
 //---
 include_once __DIR__ . '/../auth/user_infos.php';
